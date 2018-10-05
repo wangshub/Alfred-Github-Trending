@@ -36,7 +36,7 @@ def get_trending_repos():
 
 def main(wf):
     # repos = get_trending_repos()
-    repos = wf.cached_data('posts', get_trending_repos, max_age=1)
+    repos = wf.cached_data('posts', get_trending_repos, max_age=60*60*12)
     for repo in repos:
         # print(repo['description'])
         subtitle = '{description}'.format(
