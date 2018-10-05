@@ -8,7 +8,7 @@ Alfred github trending workflow in Python.
 
 ## Usage
 
-- Download [Github-Trending.workflow](Github\ Trending.alfredworkflow)
+- Download [Github-Trending.workflow](https://github.com/wangshub/Alfred-Github-Trending/raw/master/Github%20Trending.alfredworkflow)
 
 ## License
 
